@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .menu-wrapper {
+    width: 250mm;
+    height: 350mm;
+    margin: auto;
+    background-color: white;
+}
+
+.menu-background {
+    position: absolute;
+}
+
+body {
+    background-color: black;
+}
+
+body .menu-wrapper .menu-background img {
+    width: 250mm;
+    height: 350mm;
+    padding: 20px 20px;
+    border: white;
+    border-radius: 40px;
+    position: relative;
+
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 60px 0 60px;
+    height: 350px;
+}
+
+.food-image img {
+    width: 270px;
+    height: 270px;
+    padding: 15px 15px;
+    margin: 5px 0;
+    border-radius: 100%;
+    position: relative;
+}
+
+#heading .food-image p {
+    position: relative;
+    color: white;
+    font-size: 13px;
+    font-family: ubuntu;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#heading .food-image div {
+    position: relative;
+    color: rgb(206, 90, 27);
+    text-align: center;
+    font-size: 19px;
+}
+
+.food-image p {
+    color: white;
+    font-size: 13px;
+    font-family: ubuntu;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.food-image div {
+    color: rgb(206, 90, 27);
+    text-align: center;
+    font-size: 25px;
+}
+
+.restaurant-name {
+    width: 400px;
+    height: 60px;
+    color: rgb(206, 90, 27);
+    font-family: ubuntu;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.restaurant-description {
+    color: white;
+    font-family: ubuntu;
+    font-size: 122px;
+    font-weight: 700;
+    position: relative;
+    height: 135px;
+}
+
+.restaurant-description1 {
+    width: 500px;
+    color: rgb(206, 90, 27);
+    font-family: ubuntu;
+    font-size: 33px;
+    font-weight: 200;
+    padding: 20px 0 0 0;
+    position: relative;
+}
+
+.menu-list-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 55px;
+    margin: 10px;;
+}
+
+.menu-list-item {
+    color: white;
+    font-size: 21px;
+    font-family: ubuntu;
+    position: relative;
+}
+
+.menu-list-item p {
+    font-size: 15px;
+    line-height: 1;
+}
+
+.footer {
+    width: 239mm;
+    height: 41px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
